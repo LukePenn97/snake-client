@@ -18,6 +18,18 @@ const setupInput = function(conn) {
         connection.write('Move: down');
       }else if (key === 'd') {
         connection.write('Move: right');
+      }else if (key === 'f') {
+        connection.write('Say: F');
+      }else if (key === 'g') {
+        connection.write('Say: gg');
+      }else if (key === 'e') {
+        connection.write('Say: ez');
+      }else if (key === 'q') {
+        connection.write('Say: quit it');
+      }else if (key === 'c') {
+        connection.write('Say: chill');
+      }else if (key === 'h') {
+        connection.write('Say: hell ya');
       }
     });
   };
