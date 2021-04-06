@@ -10,6 +10,7 @@ const connect = function() {
     console.log("connected!");
     conn.write('Name: LEP');
   });
+  //conn.write('Move: up');
   conn.on('data', (data) => {
     console.log('Server says: ', data);
   });
