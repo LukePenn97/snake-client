@@ -18,8 +18,4 @@ const connect = function() {
   return conn;
 };
 
-
-
-setupInput();
-
 module.exports = {connect};
